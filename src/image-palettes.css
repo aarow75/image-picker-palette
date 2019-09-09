@@ -1,0 +1,26 @@
+image-palettes {
+  display: flex;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+}
+
+image-palette {
+  min-height: 360px;
+  margin: 4px;
+  border: solid 1px gray;
+  display: flex;
+  flex: 1 1 auto;
+  max-width: 300px;
+    flex-flow: wrap;
+}
+
+image-palette img {
+  width: 300px;
+  height:300px;
+}
+
+image-palette img,
+image-palette img + div {
+  display:flex;
+  flex: 1 1 auto
+}
